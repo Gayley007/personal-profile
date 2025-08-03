@@ -79,28 +79,6 @@ body {
   cursor: pointer;
 }
 
-/* Social Sidebar */
-.social-sidebar {
-  position: fixed;
-  left: 32px;
-  top: 80px;
-  transform: none;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  z-index: 100;
-}
-
-.social-link {
-  color: var(--text-secondary);
-  font-size: 28px;
-  transition: color 0.3s ease;
-}
-
-.social-link:hover {
-  color: var(--accent-color);
-}
-
 /* Main Content */
 .home-main-content {
   max-width: 1200px;
@@ -552,9 +530,6 @@ body {
     gap: 16px;
   }
 
-  .social-sidebar {
-    display: none;
-  }
 
   .home-main-content,
   .about-main-content {
